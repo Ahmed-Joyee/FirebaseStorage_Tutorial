@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Storage</string>
+    <string name="button_upload">Upload</string>
+    <string name="button_download">Download</string>
+    <string name="download_in_file">Download in file</string>
+
+
+    <string name="upload_from_file">Upload from file</string>
+    <string name="upload_resume">Resume upload</string>
+    <string name="upload_paused">Upload is paused</string>
+
+    <string name="loading">Loading…</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#FFEB3B"
+    android:backgroundTint="#FBE310"
+    android:foregroundGravity="center_vertical|clip_horizontal"
+    android:gravity="center|center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:showDividers="middle"
+    app:layout_anchorGravity="center|center_horizontal|center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Team AudioPhile"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Yeamin(01), Tasnim(05), Joyee(42)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/logo" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="@string/button_upload"
+        android:textColor="#4E342E"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:backgroundTint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:gravity="center"
+        android:text="@string/button_download"
+        android:textColor="#212121"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:backgroundTint="@color/colorPrimary" />
+
+
+</LinearLayout>
